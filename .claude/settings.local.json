@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($content = Get-Content 'C:\\\\Users\\\\Danto\\\\desktop\\\\reconai-website\\\\index.html.html' -Raw; $idx = $content.IndexOf\\('data:image/jpeg;base64,'\\); $snippet = $content.Substring\\($idx, 60\\); Write-Output $snippet)",
+      "PowerShell(python3 'C:\\\\Users\\\\Danto\\\\desktop\\\\reconai-website\\\\swap_socket.py')"
+    ]
+  }
+}
